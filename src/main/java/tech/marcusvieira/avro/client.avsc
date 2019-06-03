@@ -1,0 +1,10 @@
+{"namespace": "tech.marcusvieira.schema",
+    "type": "record",
+    "name": "Client",
+    "fields": [
+        {"name": "client_id", "type": "string"},
+        {"name": "first_name", "type": "string"},
+        {"name": "last_name", "type": "string"},
+        {"name": "age",  "type": ["int", "null"]}
+    ]
+}
